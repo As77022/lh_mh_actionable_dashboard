@@ -1,0 +1,130 @@
+version: 2
+
+sources:
+  - name: LH_MH_Dashboard
+    database: LAHIDATA
+    schema: stg_lh_mh
+    tables:
+      - name: AcademicYears
+        identifier: AcademicYears
+        description: LH_MH_data
+      - name: Accounts
+        identifier: Accounts
+        description: LH_MH_data
+      - name: AccountWorkLocations
+        identifier: AccountWorkLocations
+        description:  LH_MH_data
+      - name: CourseMaterials
+        identifier: CourseMaterials
+        description:  LH_MH_data
+      - name: DataValues
+        identifier: DataValues
+        description:  LH_MH_data
+      - name: Districts
+        identifier: Districts
+        description:  LH_MH_data
+      - name: Divisions
+        identifier: Divisions
+        description:  LH_MH_data
+      - name: DsTrainerAttendances
+        identifier: DsTrainerAttendances
+        description:  LH_MH_data
+      - name: ExitSurveyDetails
+        identifier: ExitSurveyDetails
+        description:  LH_MH_data  
+      - name: HeadMasters
+        identifier: HeadMasters
+        description:  LH_MH_data 
+      - name: HMSchoolsMap
+        identifier: HMSchoolsMap
+        description:  LH_MH_data 
+      - name: JobRoles
+        identifier: JobRoles
+        description:  LH_MH_data  
+      - name: Phases
+        identifier: Phases
+        description:  LH_MH_data  
+      - name: SchoolCategories
+        identifier: SchoolCategories
+        description:  LH_MH_data 
+      - name: SchoolClasses
+        identifier: SchoolClasses
+        description:  LH_MH_data
+      - name: Schools
+        identifier: Schools
+        description:  LH_MH_data
+      - name: SchoolVTPSectors
+        identifier: SchoolVTPSectors
+        description:  LH_MH_data
+      - name: Sections
+        identifier: Sections
+        description:  LH_MH_data
+      - name: Sectors
+        identifier: Sectors
+        description:  LH_MH_data
+      - name: States
+        identifier: States
+        description:  LH_MH_data
+      - name: StudentClassDetails
+        identifier: StudentClassDetails
+        description:  LH_MH_data
+      - name: StudentClasses
+        identifier: StudentClasses
+        description:  LH_MH_data
+      - name: StudentClassMapping
+        identifier: StudentClassMapping
+        description:  LH_MH_data
+      - name: TEAndRMList
+        identifier: TEAndRMList
+        description:  LH_MH_data
+      - name: TEToolLists
+        identifier: TEToolLists
+        description:  LH_MH_data
+      - name: ToolEquipments
+        identifier: ToolEquipments
+        description:  LH_MH_data
+      - name: ToolEquipmentsRoomDamaged
+        identifier: ToolEquipmentsRoomDamaged
+        description:  LH_MH_data
+      - name: VCSchoolSectors
+        identifier: VCSchoolSectors
+        description:  LH_MH_data
+      - name: VCTrainersMap
+        identifier: VCTrainersMap
+        description:  LH_MH_data
+      - name: VocationalCoordinators
+        identifier: VocationalCoordinators
+        description:  LH_MH_data
+      - name: VocationalTrainers
+        identifier: VocationalTrainers
+        description:  LH_MH_data
+      - name: VocationalTrainingProviders
+        identifier: VocationalTrainingProviders
+        description:  LH_MH_data
+      - name: VTClasses
+        identifier: VTClasses
+        description:  LH_MH_data
+      - name: VTClassSections
+        identifier: VTClassSections
+        description:  LH_MH_data
+      - name: VTClassStudents
+        identifier: VTClassStudents
+        description:  LH_MH_data
+      - name: VTFieldIndustryVisitConducted
+        identifier: VTFieldIndustryVisitConducted
+        description:  LH_MH_data
+      - name: VTFStudentAttendances
+        identifier: VTFStudentAttendances
+        description:  LH_MH_data
+      - name: VTGuestLectureConducted
+        identifier: VTGuestLectureConducted
+        description:  LH_MH_data
+      - name: VTPAcademicYearsMap
+        identifier: VTPAcademicYearsMap
+        description:  LH_MH_data
+      - name: VTPCoordinatorsMap
+        identifier: VTPCoordinatorsMap
+        description:  LH_MH_data
+      - name: VTSchoolSectors
+        identifier: VTSchoolSectors
+        description:  LH_MH_data
