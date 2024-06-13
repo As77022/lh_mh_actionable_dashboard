@@ -1,0 +1,4 @@
+{
+    "dbt.enableNewQueryPanel": true,
+    "dbt.queryLimit": 15000
+}

@@ -69,4 +69,4 @@ GROUP BY "ay"."YearName", "ph"."PhaseName", "SchoolAllottedYear", "vtp"."VTPId",
     "s"."UDISE", "s"."SchoolId", "s"."SchoolName", "dvst"."Name", "se"."SectorId", "se"."SectorName", "jr"."JobRoleId", "jr"."JobRoleName", "sc"."Name", "s"."IsImplemented"
 ORDER BY "ay"."YearName", "ph"."PhaseName", "SchoolAllottedYear", "vtp"."VTPName", "vc"."FullName", "vt"."FullName", "se"."SectorName", "s"."SchoolName"
 )
-select * from temp_table
+select distinct YUSC_Id from temp_table
